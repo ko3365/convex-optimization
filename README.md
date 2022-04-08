@@ -15,7 +15,7 @@ With the built-in library _SVC_, we cannot know what calculations are made when 
 2. Assume there is a cost associated with each data point used for training. The minimal number of data points that are transmitted is desired. 
 
 <p align="center">
-  <img width="400" height="300" src="images/useful_data.PNG">
+  <img width="500" src="images/useful_data.PNG">
 </p>
 
 There are data points that are more useful than others in designing the classifier. In the picture above, the data points in P1 and P3 would be less useful than the points in P2.
@@ -62,7 +62,7 @@ The main goal is to update _w_ and _gamma_ to minimize the following loss functi
 <img src="https://latex.codecogs.com/svg.image?\large&space;{\color{Gray}&space;min_{w,\gamma}&space;\sum_{i=1}^m&space;1-y_i(w^tx_i&plus;\gamma)&space;}">
 
 <p align="center">
-  <img width="600" height="300" src="images/SVM.PNG">
+  <img width="600" src="images/SVM.PNG">
 </p>
 
 In order to find the optimal classifier, we need to maximize the margin and the maximum margin can be obtained by:
